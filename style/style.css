@@ -258,6 +258,56 @@ button.btn-primary:hover {
     padding: 100px 0px;
     color: white;
 }
+/* card section */
+.single-card {
+    width: 45%;
+    padding: 15px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.single-card i {
+    font-size: 3rem;
+    color: #0600ff70;
+    margin-bottom: 1rem;
+}
+
+.single-card h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.single-card p {
+    color: #5A5A5D;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+.single-card:nth-child(2) {
+    border: 1px solid rgba(42, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-wrap-di {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
 
 
 
@@ -272,7 +322,8 @@ button.btn-primary:hover {
     .hero-container,
     .hero-input,
     section#tours,
-    .destination-img-container-1{
+    .destination-img-container-1,
+    .card-wrap-di{
         flex-direction: column;
     }
 
@@ -331,5 +382,10 @@ button.btn-primary:hover {
     .destination-title p{
         width: 21rem;
         font-size: 14px;
+    }
+    /* card section */
+    .single-card{
+        width: 100%;
+        margin: 0px 20px;
     }
 }
