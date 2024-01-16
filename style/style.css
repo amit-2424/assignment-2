@@ -124,6 +124,11 @@ section#hero-section {
     margin-right: 10px;
     border-radius: 5px;
 }
+.hero-input .hero-input-single:last-child{
+    color: white;
+    background-color: #FF5400;
+}
+
 /* tour section */
 section#tours {
     display: flex;
@@ -207,7 +212,7 @@ button.btn-primary:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 33%;
+    width: 30%;
     border-radius: 5px;
 }
 .destination-img-4{
@@ -215,7 +220,7 @@ button.btn-primary:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 33%;
+    width: 40%;
     border-radius: 5px;
 }
 .destination-img-5{
@@ -223,7 +228,7 @@ button.btn-primary:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 33%;
+    width: 30%;
     border-radius: 5px;
 }
 .destination-img-6{
